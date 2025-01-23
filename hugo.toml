@@ -1,0 +1,59 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'HHC'
+theme = 'PaperMod'
+
+[params]
+    [params.homeInfoParams]
+        title = 'HHC'
+        content = 'A random content for the home page'
+    
+    [[params.socialIcons]]
+        name = 'twitter'
+        url = "https://x.com"
+    [[params.socialIcons]]
+        name = 'github'
+        url = "https://github.com"
+    [[params.socialIcons]]
+        name = 'linkedin'
+        url = "https://linkedin.com"
+
+    [params.cover]
+        linkFullImages = true
+
+    [params.showReadingTime]
+        enabled = true
+
+    [params.showBreadCrumbs]
+        enabled = true
+
+    [params.showShareButtons]
+        enabled = true
+    
+    [params.showPostNavLinks]
+        enabled = true
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
+    weight = 10
+
+  [[menu.main]]
+    identifier = 'tags'
+    name = 'Tags'
+    url = '/tags/'
+    weight = 20
+
+  [[menu.main]]
+    identifier = 'categories'
+    name = 'Category'
+    url = '/categories/'
+    weight = 30
+
+  [[menu.main]]
+    identifier = 'archives'
+    name = 'Archives'
+    url = '/archives/'
+    weight = 40
